@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".Delete">
+
+
+    <Spinner
+        android:id="@+id/deleteSpinner"
+        android:layout_width="440dp"
+        android:layout_height="85dp"
+        android:textAlignment="center"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/deleteButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.817"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="198dp"
+        android:layout_height="82dp"
+        android:onClick="deleteReservation"
+        android:text="@string/t_rl_s"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65" />
+
+    <Button
+        android:id="@+id/backToMain"
+        android:layout_width="206dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="150dp"
+        android:onClick="back"
+        android:text="@string/vissza"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/deleteButton"
+        app:layout_constraintVertical_bias="0.436" />
+
+    <TextView
+        android:id="@+id/nincs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Még nincs foglalásod"
+        android:textColor="#F11616"
+        android:textSize="48sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/deleteSpinner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.611" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "645338453286",
+    "project_id": "vegas-4d4a6",
+    "storage_bucket": "vegas-4d4a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645338453286:android:352f45e814cb5080691de7",
+        "android_client_info": {
+          "package_name": "com.example.vegas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645338453286-7kia5suobdg6k3n9pc1ume9qo70ajecc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vegas",
+            "certificate_hash": "3f0daeb3e7ecaca0cdba63be4e07ee754f8f2267"
+          }
+        },
+        {
+          "client_id": "645338453286-b4cb6pa3d8r0fjq6i95rbdiu2bs9kerc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDm61XBjPqdzxLOveWCeUhgUplS9VEMJSA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "645338453286-b4cb6pa3d8r0fjq6i95rbdiu2bs9kerc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
