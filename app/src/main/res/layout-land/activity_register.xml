@@ -25,13 +25,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.592" />
+        app:layout_constraintVertical_bias="0.8" />
 
     <EditText
         android:id="@+id/nev"
         android:layout_width="303dp"
         android:layout_height="48dp"
-        android:layout_marginTop="96dp"
+        android:layout_marginTop="120dp"
         android:autofillHints=""
         android:hint="@string/n_v"
         android:inputType="text"
@@ -45,7 +45,7 @@
         android:id="@+id/email"
         android:layout_width="303dp"
         android:layout_height="48dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="12dp"
         android:autofillHints=""
         android:hint="@string/e_mail_c_m"
         android:inputType="textEmailAddress"
@@ -59,7 +59,7 @@
         android:id="@+id/regJelszo"
         android:layout_width="304dp"
         android:layout_height="48dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="12dp"
         android:autofillHints=""
         android:hint="@string/jelsz"
         android:inputType="textPassword"
@@ -75,7 +75,7 @@
         android:layout_width="301dp"
         android:layout_height="48dp"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="12dp"
         android:autofillHints=""
         android:hint="@string/jelsz_m_gegyszer"
         android:inputType="textPassword"
@@ -130,10 +130,10 @@
         android:text="@string/regisztr_l_s"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.69"
+        app:layout_constraintHorizontal_bias="0.671"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/datePickerButton"
-        app:layout_constraintVertical_bias="0.585" />
+        app:layout_constraintVertical_bias="0.3" />
 
     <Button
         android:id="@+id/back"
@@ -144,10 +144,10 @@
         android:text="@string/m_gse"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.908"
+        app:layout_constraintHorizontal_bias="0.46"
         app:layout_constraintStart_toEndOf="@+id/regButton"
         app:layout_constraintTop_toBottomOf="@+id/datePickerButton"
-        app:layout_constraintVertical_bias="0.585" />
+        app:layout_constraintVertical_bias="0.3" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
