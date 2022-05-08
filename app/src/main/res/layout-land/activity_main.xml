@@ -30,17 +30,15 @@
         android:id="@+id/loginFelhasznalo"
         android:layout_width="361dp"
         android:layout_height="48dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="36dp"
         android:autofillHints="Felhasznalónév"
         android:hint="@string/e_mail_c_m"
         android:inputType="text"
         android:textColorHint="#757575"
-        app:layout_constraintBottom_toTopOf="@+id/loginJelszo"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintHorizontal_bias="0.881"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.93" />
+        app:layout_constraintTop_toBottomOf="@+id/welcome" />
 
     <EditText
         android:id="@+id/loginJelszo"
@@ -51,35 +49,41 @@
         android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.891"
+        app:layout_constraintHorizontal_bias="0.885"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.545" />
+        app:layout_constraintTop_toBottomOf="@+id/loginFelhasznalo"
+        app:layout_constraintVertical_bias="0.097" />
 
     <Button
         android:id="@+id/login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp"
         android:onClick="login"
         android:text="@string/bejelentkez_s"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.571"
 
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginJelszo"
+        app:layout_constraintVertical_bias="0.181" />
 
     <Button
         android:id="@+id/reg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp"
         android:onClick="register"
         android:text="@string/regisztr_ci"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.333"
-        app:layout_constraintStart_toEndOf="@+id/login" />
+        app:layout_constraintHorizontal_bias="0.317"
+        app:layout_constraintStart_toEndOf="@+id/login"
+        app:layout_constraintTop_toBottomOf="@+id/loginJelszo"
+        app:layout_constraintVertical_bias="0.181" />
 
     <ImageView
         android:id="@+id/imageView"
